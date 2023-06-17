@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ito yung comment -->
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Byte Galore</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <link rel="icon" href="img/BYTE_GALORE_LOGO.png" type="image/x-icon">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet"
+
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Kakain na...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar & Hero Start -->
+      <div class="container-xxl position-relative p-0">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0"
+        >
+          <a href="" class="navbar-brand p-0">
+            <h1 class="text-primary m-0">Byte Galore</h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 pe-4">
+              <!-- <a href="login.html" class="nav-item nav-link">Login</a> -->
+              <a href="indexlogged.html" class="nav-item nav-link active">Home</a>
+              <a href="aboutlogged.html" class="nav-item nav-link">About</a>
+              <a href="servicelogged.html" class="nav-item nav-link">Service</a>
+              <a href="menulogged.html" class="nav-item nav-link">Menu</a>
+
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Pages</a
+                >
+                <div class="dropdown-menu m-0">
+                  <a href="login.php" class="dropdown-item">Log out</a>
+                  <a href="teamlogged.html" class="dropdown-item">Our Team</a>
+                  <a href="testimoniallogged.html" class="dropdown-item"
+                    >Testimonial</a
+                  >
+                </div>
+              </div>
+              <a href="contact.php" class="nav-item nav-link">Contact</a>
+            </div>
+           <a href="profile.php" class="btn btn-primary py-2 px-4">Book A Table</a>
+          </div>
+        </nav>
+
+        <div class="container-xxl py-5 bg-dark hero-header mb-5">
+          <div class="container my-5 py-5">
+            <div class="row align-items-center g-5">
+              <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-3 text-white animated slideInLeft">
+                  Take a Byte of Our Food!
+                </h1>
+                <p class="text-white-p">
+                  Experience the fusion of flavors and technology at Byte Galore. 
+                  Our abundant buffet combines culinary delights with interactive 
+                  digital augmentation for a feast that tantalizes your senses. 
+                  Book your spot effortlessly with our user-friendly website, 
+                  ensuring a hassle-free dining experience. Join us at Byte Galore 
+                  for an unparalleled buffet adventure, where flavors and technology 
+                  unite to create unforgettable memories.Experience the fusion of 
+                  flavors and technology at Byte Galore. Our abundant buffet combines 
+                  culinary delights with interactive digital augmentation for a feast 
+                  that tantalizes your senses. Book your spot effortlessly with our 
+                  user-friendly website, ensuring a hassle-free dining experience. 
+                  Join us at Byte Galore for an unparalleled buffet adventure, 
+                  where flavors and technology unite to create unforgettable memories.
+                </p>
+                <a
+                  href="booking.html"
+                  class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft"
+                  >Book A Table</a
+                >
+              </div>
+              <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                <img class="img-fluid" src="img/BYTE_GALORE_LOGO.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar & Hero End -->
+
+      <!-- Service Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="service-item rounded pt-3">
+                <div class="p-4">
+                  <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                  <h5>Master Chefs</h5>
+                  <p>
+                    The culinary maestro behind the exceptional quality food at
+                    Byte Galore. With years of experience and a passion for
+                    creating gastronomic masterpieces, our Master Chef curates a
+                    menu that combines innovation, traditional flavors, and a
+                    touch of culinary artistry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="service-item rounded pt-3">
+                <div class="p-4">
+                  <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                  <h5>Quality Food</h5>
+                  <p>
+                    Prepare your taste buds for a journey of extraordinary
+                    flavors crafted with the utmost expertise. We source the
+                    freshest ingredients and employ rigorous quality control
+                    measures to guarantee that every bite you take is a burst of
+                    flavor and satisfaction.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="service-item rounded pt-3">
+                <div class="p-4">
+                  <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                  <h5>Online Reservation</h5>
+                  <p>
+                    Securing your table at Byte Galore has never been easier.
+                    Simply visit our website, select your desired date and time,
+                    and let us take care of the rest. We understand the
+                    importance of convenience and efficiency, allowing you to
+                    focus on anticipating the culinary journey that awaits you.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+              <div class="service-item rounded pt-3">
+                <div class="p-4">
+                  <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                  <h5>24/7 Service</h5>
+                  <p>
+                    Provides 24/7 service to cater to your needs at any time of
+                    the day. Whether you're planning a late-night craving or an
+                    early morning gathering, our dedicated team is always ready
+                    to deliver exceptional service and ensure your dining
+                    experience exceeds expectations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Service End -->
+
+      <!-- About Start -->
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <div class="row g-3">
+          <div class="col-6 text-start">
+            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/pancitbihon.png">
+          </div>
+          <div class="col-6 text-start">
+            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/halohalo.png">
+          </div>
+          <div class="col-6 text-end">
+            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/friedrice.png">
+          </div>
+          <div class="col-6 text-end">
+            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/adobo.png">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h5 class="section-title ff-secondary text-start text-primary fw-normal">
+          About Us
+        </h5>
+        <h1 class="mb-4">
+          Welcome to Byte Galore
+        </h1>
+        <p class="mb-4">
+          Byte Galore is a delectable haven for food enthusiasts, where the buffet experience takes center stage. Our restaurant is a culinary paradise that tantalizes taste buds with an array of flavors and delights.
+        </p>
+        <p class="mb-4">
+          Our meticulously curated buffet showcases an extensive selection of mouthwatering cuisines, carefully prepared by our skilled chefs. From delectable appetizers to hearty main courses, and irresistible desserts, our buffet offers a delightful feast for all.
+        </p>
+        <div class="row g-4 mb-4">
+          <div class="col-sm-6">
+            <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-primary py-3 px-5 mt-2"  onclick="showEssay()">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About End -->
+
+<style>
+  /* Alert Styles */
+  .alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .alert-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .alert-content {
+    margin-bottom: 20px;
+  }
+
+  .alert-button {
+    background-color: #e25822;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .alert-button:hover {
+    background-color: #ffff;
+    color: #e25822;
+    border: 1px solid #e25822;
+  }
+</style>
+
+<script>
+  function showEssay() {
+    const essay = `Byte Galore: A Gastronomic Paradise
+
+Welcome to Byte Galore, a haven for food enthusiasts where the buffet experience takes center stage. Our restaurant is a culinary paradise that tantalizes taste buds with an array of flavors and delights.
+
+Our meticulously curated buffet showcases an extensive selection of mouthwatering cuisines, carefully prepared by our skilled chefs. From delectable appetizers to hearty main courses, and irresistible desserts, our buffet offers a delightful feast for all.`;
+
+    const alertBox = document.createElement("div");
+    alertBox.className = "alert";
+    alertBox.innerHTML = `
+      <h2 class="alert-title">MABUHAY AND WELCOME!</h2>
+      <p class="alert-content">${essay}</p>
+      <a class="alert-button">Close</a>
+    `;
+
+    alertBox.querySelector(".alert-button").addEventListener("click", function () {
+      document.body.removeChild(alertBox);
+    });
+
+    document.body.appendChild(alertBox);
+  }
+</script>
+
+
+
+      <!-- Menu Start -->
+
+      <!-- MegaBYTE Menu -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5
+              class="section-title ff-secondary text-center text-primary fw-normal"
+            >
+              Food Menu
+            </h5>
+            <h1 class="mb-5">Most Popular Items</h1>
+          </div>
+          <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+            <ul
+              class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5"
+            >
+              <li class="nav-item">
+                <a
+                  class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active"
+                  data-bs-toggle="pill"
+                  href="#tab-1"
+                >
+                  <i class="fa fa-coffee fa-2x text-primary"></i>
+                  <div class="ps-3">
+                   
+                    <h6 class="mt-n1 mb-0">MegaBYTE</h6>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="d-flex align-items-center text-start mx-3 pb-3"
+                  data-bs-toggle="pill"
+                  href="#tab-2"
+                >
+                  <i class="fa fa-hamburger fa-2x text-primary"></i>
+                  <div class="ps-3">
+                    
+                    <h6 class="mt-n1 mb-0">GigaBYTE</h6>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                  data-bs-toggle="pill"
+                  href="#tab-3"
+                >
+                  <i class="fa fa-utensils fa-2x text-primary"></i>
+                  <div class="ps-3">
+                    
+                    <h6 class="mt-n1 mb-0">TeraBYTE</h6>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane fade show p-0 active">
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/roastpork.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Lechon (Roast Pork)</span>
+                          <span class="text-primary">₱350</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >The roast pork comes from the area of the pig between the shoulder and the beginning of the leg.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/pancit.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Pancit (Filipino Stir-Fried Noodles)</span>
+                          <span class="text-primary">₱150</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Stir-Friend Noodles is type of noodle dish wherein the noodles (usually egg or flour) are fried until crispy.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/lumpia.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Lumpia (Spring Rolls)</span>
+                          <span class="text-primary">₱150</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >A spring roll is a Chinese food consisting of a small roll of thin pastry filled with vegetables and sometimes meat, and then fried.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/karekare.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Kare-Kare (Oxtail Stew in Peanut Sauce)</span>
+                          <span class="text-primary">₱250</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Kare-kare is a Philippine stew (kare derives from "curry") that features a thick savory peanut sauce.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- GigaBYTE Menu -->
+              <div id="tab-2" class="tab-pane fade show p-0">
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/chickenadobo.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Chicken Adobo</span>
+                          <span class="text-primary">₱200</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Adobo chicken or pork is often served over steamed rice, but is also delicious with stewed vegetables.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/sinigangwithshrimp.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Sinigang (Tamarind Soup with Shrimp)</span>
+                          <span class="text-primary">₱200</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Sinagang is often composed of a type of meat or fish, vegetables, tomatoes, and tamarind flavoring.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/garlicrice.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Garlic Rice</span>
+                          <span class="text-primary">₱150</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Garlic Rice is made by sautéing cooked rice with garlic and sometimes additional ingredients for added flavor.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/halohalo.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Halo-Halo (Mixed Dessert with Shaved Ice)</span>
+                          <span class="text-primary">₱150</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Halo-Halo is a colorful and layered dessert that combines a variety of ingredients, creating a delightful medley of flavors, textures, and colors.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- TeraBYTE Menu -->    
+              <div id="tab-3" class="tab-pane fade show p-0">
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/kaldereta.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Beef Caldereta (Spicy Beef Stew)</span>
+                          <span class="text-primary">₱250</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Beef Caldereta is a type of beef stew cooked with tomato sauce and liver spread.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/chicken.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Chicken Inasal (Grilled Chicken)</span>
+                          <span class="text-primary">₱250</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Grilled chicken is a dish made by cooking chicken on a grill or barbecue.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/bicol.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Bicol Express (Spicy Pork Stew in Coconut Milk)</span>
+                          <span class="text-primary">₱200</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Bicol Express is a spicy Filipino dish that originated from the Bicol region in the southern part of the Philippines. The dish is typically made with pork, but can also be made with chicken or beef.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="flex-shrink-0 img-fluid rounded"
+                        src="img/sisig.jpg"
+                        alt=""
+                        style="width: 80px"
+                      />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5
+                          class="d-flex justify-content-between border-bottom pb-2"
+                        >
+                          <span>Sisig (Sizzling Pork)</span>
+                          <span class="text-primary">₱250</span>
+                        </h5>
+                        <small class="fst-italic"
+                          >Sizzling Pork is a popular Filipino dish that consists of sliced pork that is pan-fried or grilled, served on a sizzling hotplate.</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Menu End -->
+
+      <div
+        class="modal fade"
+        id="videoModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content rounded-0">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <!-- 16:9 aspect ratio -->
+              <div class="ratio ratio-16x9">
+                <iframe
+                  class="embed-responsive-item"
+                  src=""
+                  id="video"
+                  allowfullscreen
+                  allowscriptaccess="always"
+                  allow="autoplay"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Reservation Start -->
+
+
+      <!-- Testimonial Start -->
+      <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+          <div class="text-center">
+            <h5
+              class="section-title ff-secondary text-center text-primary fw-normal"
+            >
+              Reviews
+            </h5>
+            <h1 class="mb-5">Our Clients Say!!!</h1>
+          </div>
+          <div class="owl-carousel testimonial-carousel">
+            <div class="testimonial-item bg-transparent border rounded p-4">
+              <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+              <p>
+                Ang buffet sa restaurant na ito ay hindi nakaka-disappoint. Palaging sariwa ang pagkain, at ang mga lasa ay napakasarap. 
+                 The chefs do an incredible job of offering a diverse range of dishes, ensuring there's something for everyone. 
+                 It's a culinary adventure that I look forward to every time!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/client1.jpg"
+                  style="width: 50px; height: 50px"
+                />
+                <div class="ps-3">
+                  <h5 class="mb-1">Andrea Perez</h5>
+                  <small>Teacher</small>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item bg-transparent border rounded p-4">
+              <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+              <p>
+                Hindi ako makuntento sa buffet sa restaurant na ito. Ang kalidad ng pagkain ay palaging napakagaling, at ang presentasyon ay maganda. 
+                The variety is astounding, and there's always something new and exciting to try. It's a true foodie paradise!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/client2.jpg"
+                  style="width: 50px; height: 50px"
+                />
+                <div class="ps-3">
+                  <h5 class="mb-1">Gabriel Rivera</h5>
+                  <small>Lawyer</small>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item bg-transparent border rounded p-4">
+              <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+              <p>
+                The buffet experience at this restaurant is exceptional. 
+                The staff is attentive and friendly, ensuring that everything is replenished promptly. 
+                Ang ambiance ay nakakapang-akit, at ang dining area ay maluwag at komportable. 
+                Ito ang perpektong lugar upang mag-enjoy ng masayang pagkain kasama ang mga kaibigan at pamilya.
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/client3.jpg"
+                  style="width: 50px; height: 50px"
+                />
+                <div class="ps-3">
+                  <h5 class="mb-1">Miguel Gonzales</h5>
+                  <small>IT Professional</small>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item bg-transparent border rounded p-4">
+              <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+              <p>
+                I highly recommend this restaurant for its buffet. 
+                The flavors are authentic, and the attention to detail is evident in every dish. 
+                Hindi ka malulugi sa presyo, lalo na't maraming pagpipilian. 
+                Kahit ikaw ay vegetarian o mahilig sa karne, puwedeng-puwede sa lahat!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/client4.jpg"
+                  style="width: 50px; height: 50px"
+                />
+                <div class="ps-3">
+                  <h5 class="mb-1">Katrina Dela Cruz</h5>
+                  <small>Nurse</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial End -->
+
+      <!-- Footer Start -->
+      <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+              <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+              <a class="btn btn-link" href="aboutlogged.html">About Us</a>
+              <a class="btn btn-link" href="contact.php">Contact Us</a>
+              <a class="btn btn-link" href="profile.php">Reservation</a>
+              <a class="btn btn-link" href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a>
+              <a class="btn btn-link" href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms & Conditions</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>General Luna, corner Muralla St, Intramuros, Manila, 1002 Metro Manila</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0915 528 9644</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>galorebyte@gmail.com</p>
+              <div class="d-flex pt-2">
+                <a class="btn btn-outline-light btn-social" href="https://twitter.com/Byte_Galore"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/bytegalore"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@ByteGalore"><i class="fab fa-youtube"></i></a>
+                <a class="btn btn-outline-light btn-social" href="https://github.com/ByteGalore"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+              <h5 class="text-light fw-normal">Monday - Saturday</h5>
+              <p>09AM - 09PM</p>
+              <h5 class="text-light fw-normal">Sunday</h5>
+              <p>10AM - 08PM</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Subscribe</h4>
+              <p>Subscribe to our newsletter for updates and promotions:</p>
+              <form class="subscribe-form" method="post" action="subscribe.php">
+                <div class="input-group">
+                  <input type="email" class="form-control" name="email" placeholder="Your email address" aria-label="Your email address" aria-describedby="subscribe-btn">
+                  <button class="btn btn-primary" type="submit" id="subscribe-btn">Subscribe</button>
+                </div>
+              </form>
+            </div>      
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">2023 Byte Galore</a>, All Rights Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="indexlogged.html">Home</a>
+                <a href="">Cookies</a>
+                <a href="">Help</a>
+                <a href="admin_login.php">Admin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Terms and Conditions Modal -->
+      <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="termsModalLabel">Terms & Conditions</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h6>1. Introduction</h6>
+              <p>Welcome to Byte Galore! These terms and conditions outline the rules and regulations for the use of our website.</p>
+              
+              <h6>2. Intellectual Property Rights</h6>
+              <p>Unless otherwise stated, we own the intellectual property rights for all the material on our website. All intellectual property rights are reserved.</p>
+              
+              <h6>3. Restrictions</h6>
+              <p>You are specifically restricted from the following:</p>
+              <ul>
+                <li>publishing any website material in any other media;</li>
+                <li>selling, sublicensing, and/or otherwise commercializing any website material;</li>
+                <li>publicly performing and/or showing any website material;</li>
+                <li>using our website in any way that is or may be damaging to this website;</li>
+                <li>using our website contrary to applicable laws and regulations, or in a way that causes, or may cause, harm to the website, or to any person or business entity;</li>
+                <li>engaging in any data mining, data harvesting, data extracting, or any other similar activity in relation to our website;</li>
+                <li>using our website to engage in any advertising or marketing.</li>
+              </ul>
+              
+              <h6>4. Limitation of Liability</h6>
+              <p>In no event shall Byte Galore, nor any of its officers, directors, and employees, be held liable for anything arising out of or in any way connected with your use of this website.</p>
+              
+              <h6>5. Indemnification</h6>
+              <p>You hereby indemnify to the fullest extent Byte Galore from and against any and all liabilities, costs, demands, causes of action, damages, and expenses arising in any way related to your breach of any of the provisions of these terms and conditions.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- Privacy Policy Modal -->
+      <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="privacyModalLabel">Privacy Policy</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Insert your privacy policy content here -->
+              <h6>Information We Collect</h6>
+              <p>We collect information from you when you subscribe to our newsletter or fill out a form. The information we collect may include your name and email address.</p>
+              
+              <h6>How We Use Your Information</h6>
+              <p>We may use the information we collect from you to send periodic emails regarding updates, promotions, and other relevant information.</p>
+              
+              <h6>How We Protect Your Information</h6>
+              <p>We implement a variety of security measures to maintain the safety of your personal information when you enter, submit, or access your personal information.</p>
+              
+              <h6>Third Party Disclosure</h6>
+              <p>We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

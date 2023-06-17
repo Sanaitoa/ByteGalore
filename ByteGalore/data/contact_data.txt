@@ -1,0 +1,8 @@
+{"name":"Toni Fowler","email":"tonil@gmail.com","subject":"MNL","message":"Meron kabang lemon? Gusto ko Tequilla eyyy","timestamp":"2023-05-19 07:45:50","read":true}
+{"name":"Jose Rizal","email":"rizal@gmail.com","subject":"msg ni rizal","message":"Fuego","timestamp":"2023-05-19 07:19:04","read":false}
+{"name":"Istak","email":"istak@gmail.com","subject":"Ask lang","message":"Hello may martilyo kayo?","timestamp":"2023-05-30 11:56:44","read":true}
+{"name":"Dingdong Nangtiz","email":"ding@gmail.com","subject":"Wala lang","message":"Darna","timestamp":"2023-05-30 12:07:23"}
+{"name":"Danilo Achacoso Aquiatan","email":"danielluisgaquiatan@gmail.com","subject":"adsd","message":"sdsd","timestamp":"2023-05-30 23:18:15","read":false}
+{"name":"Danilo Achacoso Aquiatan","email":"danielluisgaquiatan@gmail.com","subject":"adsd","message":"sdsd","timestamp":"2023-05-30 23:31:52","read":true}
+{"name":"Danilo Achacoso Aquiatan","email":"asdasd@gmail.com","subject":"yoww","message":"ewrewrewrwr","timestamp":"2023-05-31 13:28:53","read":false}
+{"name":"Jam","email":"abcd@plm.edu.ph","subject":"Feedback","message":"HEy! ","timestamp":"2023-06-07 14:13:03","read":true}

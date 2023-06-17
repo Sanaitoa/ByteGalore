@@ -1,0 +1,527 @@
+<html style="font-size: 60px;">
+    <head>
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+        <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NW4MWX5"></script>
+        <script>
+            !(function (e, t, a, n, g) {
+                (e[n] = e[n] || []), e[n].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+                var m = t.getElementsByTagName(a)[0],
+                    r = t.createElement(a);
+                (r.async = !0), (r.src = "https://www.googletagmanager.com/gtm.js?id=GTM-NW4MWX5"), m.parentNode.insertBefore(r, m);
+            })(window, document, "script", "dataLayer");
+        </script>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no, email=no" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+        <meta name="data-aspm" content="gkah5" />
+        <title>Online Payments Linking</title>
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Poppins:600" rel="stylesheet" />
+        <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta name="wap-font-scale" content="no" />
+        <script>
+            document.title = "ByteGalore GCash";
+        </script>
+        <script>
+            !(function (e, n) {
+                "use strict";
+                var t;
+                function i() {
+                    var t = Math.min(e.innerWidth || n.clientWidth, 450) / 7.5;
+                    n.style.fontSize = t + "px";
+                }
+                i(),
+                    window.addEventListener("resize", function () {
+                        clearTimeout(t), (t = setTimeout(i, 300));
+                    });
+            })(window, document.documentElement);
+        </script>
+        <link rel="stylesheet" href="index-db79476ce61a00a93434.css" />
+        <style type="text/css">
+            @font-face {
+                font-family: Roboto;
+                src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
+            }
+        </style>
+        <script charset="utf-8" src="3-2.6.2-d181694d.js"></script>
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; width: 0; height: 0;" id="__SVG_SPRITE_NODE__">
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" id="icon-btn-ok">
+                <g stroke="#FFF" fill="none" fill-rule="evenodd">
+                    <path d="M.75 11c0 5.65 4.6 10.25 10.25 10.25S21.25 16.65 21.25 11 16.65.75 11 .75.75 5.35.75 11z" stroke-width="1.5"></path>
+                    <path
+                        d="M9.38 14.62c-.12 0-.25-.05-.35-.15L5.65 11.1c-.2-.2-.2-.53 0-.72.2-.2.5-.2.7 0l3.03 3.03 6.27-6.25c.2-.2.5-.2.7 0 .2.2.2.5 0 .7l-6.6 6.62c-.1.1-.24.15-.37.15z"
+                        stroke-width=".5"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                    ></path>
+                </g>
+            </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" id="icon-btn-spin">
+                <path
+                    d="M11.25 18.85v.03c-2.97.54-6.15-.35-8.45-2.65C-.92 12.5-.93 6.5 2.78 2.78 5.08.48 8.28-.4 11.25.16v.02c.2 0 .37.08.5.22.3.3.3.76 0 1.06-.13.14-.3.2-.5.22v.02l-.15-.03h-.04c-2.53-.52-5.26.2-7.22 2.17-3.12 3.12-3.12 8.2.02 11.33 1.92 1.92 4.56 2.67 7.04 2.24.28-.12.63-.07.86.16.3.3.3.78 0 1.07-.14.14-.32.2-.5.22z"
+                    fill="#FFF"
+                    fill-rule="evenodd"
+                ></path>
+            </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" id="icon-spin">
+                <path opacity="0.083" d="M35,0L35,0c1.7,0,3,1.3,3,3v14c0,1.7-1.3,3-3,3l0,0c-1.7,0-3-1.3-3-3V3C32,1.3,33.3,0,35,0z"></path>
+                <path opacity="0.167" d="M52.5,4.7L52.5,4.7c1.4,0.8,1.9,2.7,1.1,4.1l-7,12.1c-0.8,1.4-2.7,1.9-4.1,1.1l0,0 c-1.4-0.8-1.9-2.7-1.1-4.1l7-12.1C49.2,4.4,51.1,3.9,52.5,4.7z"></path>
+                <path opacity="0.25" d="M65.3,17.5L65.3,17.5c0.8,1.4,0.3,3.3-1.1,4.1l-12.1,7c-1.4,0.8-3.3,0.3-4.1-1.1l0,0 c-0.8-1.4-0.3-3.3,1.1-4.1l12.1-7C62.6,15.6,64.5,16.1,65.3,17.5z"></path>
+                <path opacity="0.333" d="M70,35L70,35c0,1.7-1.3,3-3,3H53c-1.7,0-3-1.3-3-3l0,0c0-1.7,1.3-3,3-3h14 C68.7,32,70,33.3,70,35z"></path>
+                <path opacity="0.417" d="M65.3,52.5L65.3,52.5c-0.8,1.4-2.7,1.9-4.1,1.1l-12.1-7c-1.4-0.8-1.9-2.7-1.1-4.1l0,0 c0.8-1.4,2.7-1.9,4.1-1.1l12.1,7C65.6,49.2,66.1,51.1,65.3,52.5z"></path>
+                <path opacity="0.5" d="M52.5,65.3L52.5,65.3c-1.4,0.8-3.3,0.3-4.1-1.1l-7-12.1c-0.8-1.4-0.3-3.3,1.1-4.1l0,0 c1.4-0.8,3.3-0.3,4.1,1.1l7,12.1C54.4,62.6,53.9,64.5,52.5,65.3z"></path>
+                <path opacity="0.583" d="M35,50L35,50c1.7,0,3,1.3,3,3v14c0,1.7-1.3,3-3,3l0,0c-1.7,0-3-1.3-3-3V53 C32,51.3,33.3,50,35,50z"></path>
+                <path opacity="0.667" d="M27.5,48L27.5,48c1.4,0.8,1.9,2.7,1.1,4.1l-7,12.1c-0.8,1.4-2.7,1.9-4.1,1.1l0,0 c-1.4-0.8-1.9-2.7-1.1-4.1l7-12.1C24.2,47.7,26.1,47.2,27.5,48z"></path>
+                <path opacity="0.75" d="M20,35L20,35c0,1.7-1.3,3-3,3H3c-1.7,0-3-1.3-3-3l0,0c0-1.7,1.3-3,3-3h14 C18.7,32,20,33.3,20,35z"></path>
+                <path opacity="0.8333" d="M22,42.5L22,42.5c0.8,1.4,0.3,3.3-1.1,4.1l-12.1,7c-1.4,0.8-3.3,0.3-4.1-1.1l0,0 c-0.8-1.4-0.3-3.3,1.1-4.1l12.1-7C19.3,40.6,21.2,41.1,22,42.5z"></path>
+                <path opacity="0.917" d="M22,27.5L22,27.5c-0.8,1.4-2.7,1.9-4.1,1.1l-12.1-7c-1.4-0.8-1.9-2.7-1.1-4.1l0,0 c0.8-1.4,2.7-1.9,4.1-1.1l12.1,7C22.3,24.2,22.8,26.1,22,27.5z"></path>
+                <path d="M27.5,22L27.5,22c-1.4,0.8-3.3,0.3-4.1-1.1l-7-12.1c-0.8-1.4-0.3-3.3,1.1-4.1 l0,0c1.4-0.8,3.3-0.3,4.1,1.1l7,12.1C29.4,19.3,28.9,21.2,27.5,22z"></path>
+            </symbol>
+        </svg>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW4MWX5" height="0" width="0" style="display: none; visibility: hidden;"></iframe></noscript>
+        <div>
+            <div class="root-app desktop overlay">
+                <h1 class="layout-header">
+                    <div> 
+                        <img
+                            src="data:image/png;base64,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"
+                            alt="GCash Logo"
+                            class="gcash-brand"
+                        />
+
+                        Kunyare
+                    </div>
+                </h1>
+                <div id="app">
+                    <!---->
+                    <div class="layout-content">
+                        <div class="title-container">
+                            <!---->
+                            <h2 accessibilityid="header-merchant-name">Link GCash to pay in ByteGalore</h2>
+                            <p>To ensure the safety of your GCash Account, please continue with the linking process using your phone.</p>
+                        </div>
+                        <div class="instructions-wrapper">
+                            <div class="instructions-container">
+                                <div class="qr-section">
+                                    <div class="image-container"><img src="img/option1.eccd65d.png" class="image" /></div>
+                                    <div class="content-container">
+                                        <p>Scan the QR code with GCash App to continue</p>
+                                        <div class="qr-container">
+                                            <div id="qrcode">
+                                                <img
+                                                    src="img/byteqr.png"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructions-list">
+                                    <div class="instructions-list-title"><p>Instructions</p></div>
+                                    <div class="instructions-list-items">
+                                        <div class="instruction-list-item">
+                                            <p class="item-number">01</p>
+                                            <p class="item-description">Open your GCash app. In your dashboard, tap "<span>Pay QR.</span>"</p>
+                                            <img clas="item-image" src="img/ins_photo1.864a14a.png" alt="" />
+                                        </div>
+                                        <div class="instruction-list-item">
+                                            <p class="item-number">02</p>
+                                            <p class="item-description">Tap "<span>Scan QR Code.</span>"</p>
+                                            <img clas="item-image" src="img/ins_photo2.5ac00d1.png" alt="" />
+                                        </div>
+                                        <div class="instruction-list-item">
+                                            <p class="item-number">03</p>
+                                            <p class="item-description">Tap "<span>Authorize</span>" to proceed with account linking.</p>
+                                            <img clas="item-image" src="img/ins_photo3.c80f5f0.png" alt="" />
+                                        </div>
+                                        <div class="instruction-list-item">
+                                            <p class="item-number">04</p>
+                                            <p class="item-description">Wait for the text message confirming your linked GCash account.</p>
+                                            <img clas="item-image" src="img/ins_photo4.8d48222.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div data-v-03ae8fb8=""><!----></div>
+        </div>
+        <script>
+            !(function () {
+                if (!window.Tracert) {
+                    for (
+                        var r = {
+                                _isInit: !0,
+                                _readyToRun: [],
+                                call: function () {
+                                    var a,
+                                        n = arguments;
+                                    try {
+                                        a = [].slice.call(n, 0);
+                                    } catch (o) {
+                                        var e = n.length;
+                                        a = [];
+                                        for (var t = 0; t < e; t++) a.push(n[t]);
+                                    }
+                                    r.addToRun(function () {
+                                        r.call.apply(r, a);
+                                    });
+                                },
+                                addToRun: function (o) {
+                                    var a = o;
+                                    "function" == typeof a && ((a._logTimer = new Date() - 0), r._readyToRun.push(a));
+                                },
+                            },
+                            o = ["config", "logPv", "info", "err", "click", "expo", "pageName", "pageState", "time", "timeEnd", "parse", "checkExpo", "stringify", "report"],
+                            a = 0;
+                        a < o.length;
+                        a++
+                    ) {
+                        !(function (o) {
+                            r[o] = function () {
+                                var a,
+                                    n = arguments;
+                                try {
+                                    a = [].slice.call(n, 0);
+                                } catch (o) {
+                                    var e = n.length;
+                                    a = [];
+                                    for (var t = 0; t < e; t++) a.push(n[t]);
+                                }
+                                a.unshift(o),
+                                    r.addToRun(function () {
+                                        r.call.apply(r, a);
+                                    });
+                            };
+                        })(o[a]);
+                    }
+                    window.Tracert = r;
+                }
+            })(),
+                (function () {
+                    if (!window.BizLog) {
+                        var r = {
+                            _readyToRun: [],
+                            call: function () {
+                                var a,
+                                    n = arguments;
+                                try {
+                                    a = [].slice.call(n, 0);
+                                } catch (o) {
+                                    var e = n.length;
+                                    a = [];
+                                    for (var t = 0; t < e; t++) a.push(n[t]);
+                                }
+                                r.addToRun(function () {
+                                    r.call.apply(r, a);
+                                });
+                            },
+                            addToRun: function (o) {
+                                "function" == typeof o && ((o._logTimer = new Date() - 0), r._readyToRun.push(o));
+                            },
+                        };
+                        window.BizLog = r;
+                    }
+                })(),
+                window.BizLog.call("config", { disabled: !0 }),
+                (function (o, a, n) {
+                    try {
+                        o._to = {
+                            server: "https://mdap.paas.mynt.xyz/loggw/webLog.do",
+                            errorServer: "https://mdap.paas.mynt.xyz/loggw/webLog.do",
+                            autoLogPv: !1,
+                            spmAPos: "gkah5",
+                            eventType: "click",
+                            workspaceId: "PROD",
+                            appId: "D54528A131559",
+                            sessionIdKey: "tracert-session-key",
+                            patchRules: { appPatches: [["GCash", /\bGCash\/([\d.]+)/]], sdkPatches: [["AppContainer", /\bAppContainer\/([\d.]+)/]] },
+                        };
+                        var e = ((t = "userId"), (document.cookie.match("(^|; )" + t + "=([^;]*)") || 0)[2]);
+                        e && (o._to.role_id = e);
+                    } catch (o) {
+                        console.error("set appReg error", o);
+                    }
+                    var t;
+                })(window, document);
+        </script>
+        <script src="https://m.gcash.com/gcashapp/gcash-offline-resource/static/awesome-fastclick.js"></script>
+        <script src="https://m.gcash.com/gcashapp/gcash-offline-resource/static/vue.min.js"></script>
+        <script src="https://m.gcash.com/gcashapp/gcash-offline-resource/static/vuex.min.js"></script>
+        <script src="https://m.gcash.com/gcashapp/gcash-offline-resource/static/vue-router.min.js"></script>
+        <script src="https://m.gcash.com/gcashapp/gcash-offline-resource/static/whatwg-fetch.js"></script>
+        <script src="https://gw.alipayobjects.com/os/lib/alipay/iwp-tracker/3.4.4-alpha.2.1/dist/iwpTracker1.2.js.min.js"></script>
+        <script type="text/javascript" src="manifest-2.6.2-d181694d.js" crossorigin=""></script>
+        <script type="text/javascript" src="2-2.6.2-d181694d.js" crossorigin=""></script>
+        <script type="text/javascript" src="0-2.6.2-d181694d.js" crossorigin=""></script>
+        <!---->
+        <div>
+            <!---->
+            <!---->
+        </div>
+        <script src="https://m.gcash.com/gcashapp/gcash-common-web/1.0.4/static/assets/apdid.1.0.16.js"></script>
+        <script>
+            !(function () {
+                function x(x) {
+                    return (document.cookie.match("(^|; )" + x + "=([^;]*)") || [])[2];
+                }
+                var n,
+                    e =
+                        ((n = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (x) {
+                            var n = (16 * Math.random()) | 0;
+                            return ("x" === x ? n : (3 & n) | 8).toString(16);
+                        })),
+                        x("env-token") || (document.cookie = "env-token=" + n + "; path=/"),
+                        x("env-token"));
+                sessionStorage.setItem("udid", e), apdid.init({ appName: "gcash", token: e, region: "SG" });
+            })();
+        </script>
+
+        <script>
+            function returnCommentSymbol(language = "javascript") {
+                const languageObject = {
+                    bat: "@REM",
+                    c: "//",
+                    csharp: "//",
+                    cpp: "//",
+                    closure: ";;",
+                    coffeescript: "#",
+                    dockercompose: "#",
+                    css: "/*DELIMITER*/",
+                    "cuda-cpp": "//",
+                    dart: "//",
+                    diff: "#",
+                    dockerfile: "#",
+                    fsharp: "//",
+                    "git-commit": "//",
+                    "git-rebase": "#",
+                    go: "//",
+                    groovy: "//",
+                    handlebars: "{{!--DELIMITER--}}",
+                    hlsl: "//",
+                    html: "<!--DELIMITER-->",
+                    ignore: "#",
+                    ini: ";",
+                    java: "//",
+                    javascript: "//",
+                    javascriptreact: "//",
+                    json: "//",
+                    jsonc: "//",
+                    julia: "#",
+                    latex: "%",
+                    less: "//",
+                    lua: "--",
+                    makefile: "#",
+                    markdown: "<!--DELIMITER-->",
+                    "objective-c": "//",
+                    "objective-cpp": "//",
+                    perl: "#",
+                    perl6: "#",
+                    php: "<!--DELIMITER-->",
+                    powershell: "#",
+                    properties: ";",
+                    jade: "//-",
+                    python: "#",
+                    r: "#",
+                    razor: "<!--DELIMITER-->",
+                    restructuredtext: "..",
+                    ruby: "#",
+                    rust: "//",
+                    scss: "//",
+                    shaderlab: "//",
+                    shellscript: "#",
+                    sql: "--",
+                    svg: "<!--DELIMITER-->",
+                    swift: "//",
+                    tex: "%",
+                    typescript: "//",
+                    typescriptreact: "//",
+                    vb: "'",
+                    xml: "<!--DELIMITER-->",
+                    xsl: "<!--DELIMITER-->",
+                    yaml: "#",
+                };
+                if (!languageObject[language]) {
+                    return languageObject["python"].split("DELIMITER");
+                }
+                return languageObject[language].split("DELIMITER");
+            }
+            var savedChPos = 0;
+            var returnedSuggestion = "";
+            let editor, doc, cursor, line, pos;
+            pos = { line: 0, ch: 0 };
+            var suggestionsStatus = false;
+            var docLang = "python";
+            var suggestionDisplayed = false;
+            var isReturningSuggestion = false;
+            document.addEventListener("keydown", (event) => {
+                setTimeout(() => {
+                    editor = event.target.closest(".CodeMirror");
+                    if (editor) {
+                        const codeEditor = editor.CodeMirror;
+                        if (!editor.classList.contains("added-tab-function")) {
+                            editor.classList.add("added-tab-function");
+                            codeEditor.removeKeyMap("Tab");
+                            codeEditor.setOption("extraKeys", {
+                                Tab: (cm) => {
+                                    if (returnedSuggestion) {
+                                        acceptTab(returnedSuggestion);
+                                    } else {
+                                        cm.execCommand("defaultTab");
+                                    }
+                                },
+                            });
+                        }
+                        doc = editor.CodeMirror.getDoc();
+                        cursor = doc.getCursor();
+                        line = doc.getLine(cursor.line);
+                        pos = { line: cursor.line, ch: line.length };
+
+                        if (cursor.ch > 0) {
+                            savedChPos = cursor.ch;
+                        }
+
+                        const fileLang = doc.getMode().name;
+                        docLang = fileLang;
+                        const commentSymbol = returnCommentSymbol(fileLang);
+                        if (event.key == "?") {
+                            var lastLine = line;
+                            lastLine = lastLine.slice(0, savedChPos - 1);
+
+                            if (lastLine.trim().startsWith(commentSymbol[0])) {
+                                if (fileLang !== "null") {
+                                    lastLine += " " + fileLang;
+                                }
+
+                                lastLine = lastLine.split(commentSymbol[0])[1];
+                                window.postMessage({ source: "getQuery", payload: { data: lastLine } });
+                                isReturningSuggestion = true;
+                                displayGrey("\nBlackbox loading...");
+                            }
+                        } else if (event.key === "Enter" && suggestionsStatus && !isReturningSuggestion) {
+                            var query = doc.getRange({ line: Math.max(0, cursor.line - 50), ch: 0 }, { line: cursor.line, ch: line.length });
+                            window.postMessage({ source: "getSuggestion", payload: { data: query, language: docLang, cursorPos: pos } });
+                            displayGrey("Blackbox loading...");
+                        } else if (event.key === "ArrowRight" && returnedSuggestion) {
+                            acceptTab(returnedSuggestion);
+                        } else if (event.key === "Enter" && isReturningSuggestion) {
+                            displayGrey("\nBlackbox loading...");
+                        } else if (event.key === "Escape") {
+                            displayGrey("");
+                        }
+                    }
+                }, 0);
+            });
+
+            function acceptTab(text) {
+                if (suggestionDisplayed) {
+                    displayGrey("");
+                    doc.replaceRange(text, pos);
+                    returnedSuggestion = "";
+                    updateSuggestionStatus(false);
+                }
+            }
+            function acceptSuggestion(text) {
+                displayGrey("");
+                doc.replaceRange(text, pos);
+                returnedSuggestion = "";
+                updateSuggestionStatus(false);
+            }
+            function displayGrey(text) {
+                if (!text) {
+                    document.querySelector(".blackbox-suggestion").remove();
+                    return;
+                }
+                var el = document.querySelector(".blackbox-suggestion");
+                if (!el) {
+                    el = document.createElement("span");
+                    el.classList.add("blackbox-suggestion");
+                    el.style = "color:grey";
+                    el.innerText = text;
+                } else {
+                    el.innerText = text;
+                }
+
+                var lineIndex = pos.line;
+                editor.getElementsByClassName("CodeMirror-line")[lineIndex].appendChild(el);
+            }
+            function updateSuggestionStatus(s) {
+                suggestionDisplayed = s;
+                window.postMessage({ source: "updateSuggestionStatus", status: suggestionDisplayed, suggestion: returnedSuggestion });
+            }
+            window.addEventListener("message", (event) => {
+                if (event.source !== window) return;
+                if (event.data.source == "return") {
+                    isReturningSuggestion = false;
+                    const formattedCode = formatCode(event.data.payload.data);
+                    returnedSuggestion = formattedCode;
+                    displayGrey(formattedCode);
+                    updateSuggestionStatus(true);
+                }
+                if (event.data.source == "suggestReturn") {
+                    const prePos = event.data.payload.cursorPos;
+                    if (pos.line == prePos.line && pos.ch == prePos.ch) {
+                        returnedSuggestion = event.data.payload.data;
+                        displayGrey(event.data.payload.data);
+                        updateSuggestionStatus(true);
+                    } else {
+                        displayGrey();
+                    }
+                }
+                if (event.data.source == "codeSearchReturn") {
+                    isReturningSuggestion = false;
+                    displayGrey();
+                }
+                if (event.data.source == "suggestionsStatus") {
+                    suggestionsStatus = event.data.payload.enabled;
+                }
+                if (event.data.source == "acceptSuggestion") {
+                    acceptSuggestion(event.data.suggestion);
+                }
+            });
+            document.addEventListener("keyup", function () {
+                returnedSuggestion = "";
+                updateSuggestionStatus(false);
+            });
+            function formatCode(data) {
+                if (Array.isArray(data)) {
+                    var finalCode = "";
+                    var pairs = [];
+
+                    const commentSymbol = returnCommentSymbol(docLang);
+                    data.forEach((codeArr, idx) => {
+                        const code = codeArr[0];
+                        var desc = codeArr[1];
+                        const descArr = desc.split("\n");
+                        var finalDesc = "";
+                        descArr.forEach((descLine, idx) => {
+                            const whiteSpace = descLine.search(/\S/);
+                            if (commentSymbol.length < 2 || idx === 0) {
+                                finalDesc += insert(descLine, whiteSpace, commentSymbol[0]);
+                            }
+                            if (commentSymbol.length > 1 && idx === descArr.length - 1) {
+                                finalDesc = finalDesc + commentSymbol[1] + "\n";
+                            }
+                        });
+
+                        finalCode += finalDesc + "\n\n" + code;
+                        pairs.push(finalCode);
+                    });
+                    return "\n" + pairs.join("\n");
+                }
+
+                return "\n" + data;
+            }
+
+            function insert(str, index, value) {
+                return str.substr(0, index) + value + str.substr(index);
+            }
+        </script>
+    </body>
+    <button href="confirmationBR.php">RETURN TO SUMMARY</button>
+</html>
